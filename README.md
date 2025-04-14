@@ -9,3 +9,9 @@ dotnet new console -n YourProjectName.Console
 ```bash
 dotnet sln add YourProjectName.Console/YourProjectName.Console.csproj
 ```
+
+### ✅ Run and Test
+
+```bash
+dotnet run --project YourProjectName.Console
+```
