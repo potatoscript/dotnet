@@ -15,3 +15,9 @@ dotnet sln add YourProjectName.Console/YourProjectName.Console.csproj
 ```bash
 dotnet run --project YourProjectName.Console
 ```
+
+### ✅ Remove the Old WPF Project
+
+```bash
+dotnet sln remove YourProjectName.App/YourProjectName.App.csproj
+```
