@@ -21,3 +21,11 @@ dotnet run --project YourProjectName.Console
 ```bash
 dotnet sln remove YourProjectName.App/YourProjectName.App.csproj
 ```
+
+### ✅ Create dll library package and upload to nuget.org
+
+```bash
+dotnet pack -c Release
+dotnet nuget push bin/Release/Potato.NET.SQLite.1.0.0.nupkg --api-key xxxxxxxxxxxxxxxxxxxxxxxx --source https://api.nuget.org/v3/index.json
+
+```
